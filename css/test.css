@@ -1,0 +1,18 @@
+
+.container {
+    width: 80%;
+    margin: auto;
+    background-color: grey;
+}
+
+.paralax {
+    background: url(../image/books_of_this_highdefinition_picture_2_166408.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+
+}
+
+body {
+    background-color:blue;
+}
