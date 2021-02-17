@@ -11,15 +11,20 @@
     <script src="parallax.js-1.5.0/parallax.min.js"></script>
     <script src="https://kit.fontawesome.com/d90fc98f09.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <div class="parallax"  data-parallax="scroll" data-z-index= "1" data-image-src="image/deco6.jpg">
+<body class="bodyMenu ">
+    <div class="parallax"  data-parallax="scroll" data-z-index= "1" data-image-src="image/deco4.jpg">
         <div class="parallax-container">
             <div class="toggle_btn">
                 <span></span>
             </div>
             <header>
                 <h1>Pepitas</h1>
-                <nav>
+                <div class="menu nav">
+                    <a href="Accueil">Accueil</a>
+                    <a href="Ceramiques">Ceramiques</a>
+                    <a href="Contact">Contact</a>
+                </div>
+                <nav >
                     <ul>
                         <li><a href="Accueil">Accueil</a></li>
                         <li><a href="Ceramiques">Ceramiques</a></li>
@@ -28,7 +33,7 @@
                 </nav>
             </header>
             <main>
-                <section  class="description">
+                <section  class="description" >
                         <h2> Café + Atelier de poterie</h2>
                         <p> Jumelant café, boutique et atelier de poterie, Les Faiseurs met de l'avant la céramique d'aujourd'hui sous plusieurs formes. Venez découvrir notre espace lumineux au coeur de la Petite-Italie! 
                         </p>
@@ -41,32 +46,29 @@
                 </section>
         </div>
     </div>
-        <div class="second-container">
-            <section class="reseaux">
-                <h2>Suivez nous sur Instagram</h2>
-                <div class="instapic">
-                    <img src="image/deco1.jpg" alt="">
-                    <img src="image/deco2.jpg" alt="">
-                    <img src="image/deco3.jpg" alt="">
-                    <img src="image/deco4.jpg" alt="">
-                    <img src="image/deco5.jpg" alt="">
-                    <img src="image/deco6.jpg" alt="">
-                </div>
-            </section>
-            <section class="form">
-                <h2>Restez informés</h2>
-                <p>Pour être les premiers informés lors des périodes d’inscriptions et avoir des nouvelles de temps en temps, abonnez-vous à notre infolettre!</p>
-                <form method="" class="formulaire">
-
-                    <label for="email" aria-placeholder="email"></label>
-                    <input type="email" name="email" id="email" placeholder="Entrez votre email" class="input mail">
-                    
-                    <button class="input button">S'ABBONER</button>
-                </form>
-            </section>
-    </div>
+            <div class="second-container">
+                <section class="reseaux">
+                    <h2>Suivez nous sur Instagram</h2>
+                    <div class="instapic">
+                        <img src="image/deco1.jpg" alt="">
+                        <img src="image/deco2.jpg" alt="">
+                        <img src="image/deco3.jpg" alt="">
+                        <img src="image/deco4.jpg" alt="">
+                        <img src="image/deco5.jpg" alt="">
+                        <img src="image/deco6.jpg" alt="">
+                    </div>
+                </section>
+                <section class="form">
+                    <h2>Restez informés</h2>
+                    <p>Pour être les premiers informés lors des périodes d’inscriptions et avoir des nouvelles de temps en temps, abonnez-vous à notre infolettre!</p>
+                    <form method="" class="formulaire">
+                        <label for="email" aria-placeholder="email"></label>
+                        <input type="email" name="email" id="email" placeholder="Entrez votre email" class="input mail">
+                        <button class="input button">S'ABONNER</button>
+                    </form>
+                </section>
+            </div>
         </main>
-
         <footer>
             <div class="footer-info">
                 <div class="gauche">
@@ -74,16 +76,15 @@
                         <a href="#">6564 Boul. Saint-Laurent
                             Montréal, Qc, H2S 3C6</a>
                         <p>514 543-4042</p>
-                        <a href="#">info@lesfaiseurs.ca </a>
-                    
+                        <a href="#">info@lesfaiseurs.ca </a>     
                     </ul>
                     <div class="fb">
-                        <a href="#"> <i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></i></a>
+                        <div>
+                            <a href="#"> <i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></i></a>
+                        </div>
                     </div>
                 </div>
-                
-            
                 <div class="horraire">
                     <h2>Horraires</h2>
                     <ul>
@@ -91,14 +92,11 @@
                         <p>Dimanche : 5h</p>
                     </ul>
                     <form method="">
-
                         <label for="email" aria-placeholder="email"></label>
                         <input type="email" name="email" id="email" placeholder="Entrez votre email" class="input mail">
-                        
-                        <button class="input button">S'ABBONER</button>
+                        <button class="input button">S'ABONNER</button>
                     </form>
                 </div>
-                
             </div>
             <div class="footer-nav">
                 <nav>
@@ -106,10 +104,8 @@
                     <li><a href="#">Blog</a></li>
                 </nav>
             </div>
-            
-            
         </footer>
     
-    
+    <script src="app.js"></script>
 </body>
 </html>
